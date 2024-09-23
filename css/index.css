@@ -1,0 +1,497 @@
+/* poppins link */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* index.php styling start */
+.index-main-div1{
+    width:100%;
+    height:100vh;
+    z-index: 2;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.index-main-div2{
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.welcome-title{
+    width:80%;
+    /* background-color:red; */
+     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+.index-main-div2 .title-one{
+    padding-right:5px;
+    margin:0;
+    font-size:45px;
+    font-weight:700;
+    color:#ffffff;
+    text-shadow: 1px 1px grey;
+}
+.index-main-div2 .title-two{
+    padding-left:5px;
+    margin:0;
+    color:#007aff;
+    font-size:45px;
+    font-weight:700;
+    text-shadow: 1px 1px white;
+}
+.welcome-title .title-three{
+    color:#007aff;
+    padding:5px;
+    text-shadow: 2px 2px white;
+    font-size:30px;
+    font-weight:600;
+}
+.buttons-box a{
+    transition:0.2s linear;
+    margin:10px;
+  
+}
+.buttons-box{
+    display:flex;
+}
+.index-banner-img{
+    z-index: 1;
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    display:flex;;
+    flex-wrap: wrap;
+    object-fit:cover;
+}
+
+/* index.php styling end */
+
+/* loginform.php styling start */
+
+.previous-btn{
+    font-size: 25px;
+}
+.loginform-main-div1{
+    background-color:#eee;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.title{
+    padding-top:15px;
+    color:#007aff;
+    text-shadow:1px 1px grey;
+    font-weight: 800;
+}
+.loginform-main-div2{
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    padding:40px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.login-btn-signup-btn a:hover{
+    text-decoration: none;
+}
+ .login-btn-signup-btn p{
+    color:grey;
+}
+.loginform-main-div2 input{
+    padding-left:10px;
+    margin-bottom:20px;
+}
+/* loginform.php styling end */
+
+
+/* registerform.php styling start */
+
+.registerform-main-box1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+.registerform-main-box2{
+    padding:40px auto;
+    background-color: #fafafa;
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.title{
+    padding-top:15px;
+    color:#007aff;
+    text-shadow:1px 1px grey;
+    font-weight: 800;
+}
+.registerform-box input,select{
+    padding:5px 0px 5px 10px;
+    outline:none;
+    margin:10px;
+}
+
+/* registerform.php styling ends */
+
+
+
+/* landingpage.php styling start */
+
+/* navigationbar style start */
+.navigationbar{
+    background-color: #fff;
+    border:none;
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    
+}
+.website-name{
+    margin-left:5px;
+    color: #007aff !important;
+    text-shadow:1px 1px grey;
+    font-size:25px;
+    font-weight:800;
+
+}
+.navigation-links{
+    font-size:17px;
+    color:black!important;
+    transition:0.1s linear all;
+}
+.navigation-links:hover{
+   font-weight:700;
+   color:#007aff!important;
+   text-shadow:2px 2px white;
+   transform:scale(1.1);
+   transition:0.1s linear all;
+}
+.book-appointment-button{
+    border:none;
+    background-color: #00ab9f;
+    padding:5px 5px!important;
+    color:#fff!important;
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    
+}
+.book-appointment-button:hover{
+    background-color: #00ab9f!important;
+    padding:5px 5px!important;
+    color: #fff !important;
+}
+
+/* navigationbar style end */
+
+/* banner image style start*/
+.landing-banner-img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    /* margin-bottom:20px; */
+}
+/* banner image style end */
+
+
+/* hospital feature box style */
+.features-main-box{
+    height:100vh; 
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:space-around;
+}
+.features-box{
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fafafa;
+    border-left:2px;
+    border-right:2px;
+    border-color:#fff;
+    border-style: solid;
+    display:flex;
+    flex-direction:column;
+}
+.features-icons{
+    color:#00ab9f;
+    font-size:40px;
+}
+.title{
+    padding-top:15px;
+    color:#007aff;
+    text-shadow:1px 1px grey;
+    font-weight: 800;
+}
+.features-name{ 
+    display:flex;
+    align-self:center;
+    font-weight: 700;
+    color:#615e5e;
+}
+/* hospital feature box style end */
+
+/* doctors box styling start  */
+.doctors-container{
+    height:100vh;
+}
+
+.doctor-img{
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    transform:scale(0.8);
+    height:250px;
+    margin:0 auto; 
+    width:250px;
+    border-radius:100%;
+    object-fit:cover;
+    background-color:white;
+    transition: 0.1s linear all;
+
+}
+.doctor-main-box{
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.doctor-img:hover{
+    transform:scale(0.9);
+    transition: 0.1s linear all;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.doctors-card{
+    transform:scale(0.9);
+    transition: 0.1s linear all;
+    width:300px;
+    background-color:#00ab9f;
+ display:flex;
+ flex-direction: column;
+ align-items:space-around;
+ border:2px solid white;
+ border-radius:10px;
+}
+.doctors-card:hover{
+    transform:scale(1);
+    transition: 0.1s linear all;
+}
+.doctor-name{
+    color:white;
+    text-shadow:0px 0px 2px black;
+    display:flex;
+    align-self:center;
+}
+.view-doctor-btn{
+    width:fit-content;
+    padding:5px 25px;
+    margin-bottom:5px;
+    display:flex;
+    align-self:center;
+    background-color:#fff;
+    color:#00ab9f;
+    transition:0.2s linear;
+}
+.view-doctor-btn:hover{
+    background-color:#35968f;
+    color:#fff;
+}
+
+/* doctors box styling end */
+
+
+/* footer styling */
+.footer-main-box{
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+.footer-box{
+    /* background-color:#fafafa; */
+    background-color:rgba(0,0,0,0.3);
+    padding:10px 0px;
+    color:#007aff;
+    
+}
+.footer-content{
+    display:flex;
+    justify-content:center;
+}
+.footer-box h2,h3{
+    display:flex;
+    align-self:baseline;
+    font-weight:800;
+    text-shadow:1px 1px white;
+}
+/* footer style ends */
+
+/* landingpage.php styling ends */
+
+
+
+/* contactus.php styling start */
+
+/* googlemap and contact container styling start */
+
+.contactus-mainbox1{
+    display:flex;
+    align-items: center;
+    height:100vh;
+}
+
+.contactus-mainbox2{
+  background-color:#fafafa;
+  box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.contactus-form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contactus-form input,textarea{
+    margin-bottom:60px;
+    padding:10px;
+    width:300px;
+}
+/* googlemap and contact container styling end */
+
+/* contactus.php styling ends */
+
+
+
+
+
+/* appointment.php styling starts */
+
+/* banner image style start*/
+.appointment-banner-img{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    object-fit:cover;
+}
+/* banner image style end */
+
+/* appointment-form style start */
+
+.appointment-mainbox{
+  
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:20px;
+}
+.appointment-form{
+    background-color:rgba(0,0,0,0.5);
+    width:90%;
+    height:70%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.appointment-box-1{
+    /* margin:auto; */
+    display:flex;
+    justify-content:space-around;
+    margin-top:60px;
+}
+.appointment-btn-box{
+    margin:auto;
+    width:100%;
+    display:flex;
+   justify-content:center;
+
+}
+.select{
+    width:200px;
+}
+
+.gender-lable{
+    color:white;
+}
+
+/* appointment-form style end */
+
+/* appointment.php styling starts */
+
+
+/* patientchat.php styling starts */
+.chatbox-container{
+    margin-top:60px;
+    margin-bottom:0;
+    height:90vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:end;
+    background-color:#fafafa;
+    box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.chatbox-1{
+    display:flex;
+    flex-direction:column;
+height:100%;
+width:70%;
+background-color:#007a9f;
+box-shadow:0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.chatbox-2{
+    /* width:50%; */
+    display:flex;
+    flex-wrap:wrap;
+    position: fixed;
+    bottom:0;
+    justify-content:center;
+}
+.chatbox-2 input{
+    width:325px;
+    outline:none;
+    padding:5px 10px;
+}
+.chatbox-2 form{
+    position:relative;
+}
+.msg-send-btn{
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+.my-message{
+    border-radius:10px;
+    margin:5px;
+    padding:5px 10px;
+    display:flex;
+    align-self:end;
+    width:50%;
+    color:#007a9f;
+    background-color:#fff;
+
+}
+.doctor-message{
+    color:#007a9f;
+    background-color:#fff;
+    border-radius:10px;
+    margin:5px;
+    padding:5px 10px;
+    display:flex;
+    flex-wrap:wrap;
+    align-self:start;
+    width:50%;
+}
+
+
+
+/* patientchat.php styling ends */
